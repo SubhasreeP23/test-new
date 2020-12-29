@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trello Board</title>
+        <link rel="stylesheet" href="Trello-dashboard.css">
+        <link rel="stylesheet" href="utils.css">
+        <link rel="stylesheet" href="external-reset.css">
+        <link rel="stylesheet" href="trello-board.css">
+        <link rel="stylesheet" href="all-min.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="pointer">
+                    <i class="home fas fa-home">
+                        <img src="home.png">
+                    </i>
+                </li>
+                <li class="pointer">
+                    <i class="boards fas fa-th-list">
+                        ::before
+                    </i>
+                    Boards
+                </li>
+                <li class="menu-input">
+                    <input type="text">
+                </li>
+            </ul>
+            <div class="app-title">
+                Tralala
+            </div>
+            <div class="actions">
+                <span class="pointer">
+                    <i class="fas fa-plus" id="add-board">
+                        <img src="plus.png">
+                    </i>
+                </span>
+                <span class="pointer">
+                    <i class="fas fa-plus" id="profile-image">
+                        <img src="contact.png">
+                    </i>
+                </span>
+            </div>
+        </nav>
+        <div class="board-container">
+            <div class="board-menu">
+                <div class="board-title">Frontend Training</div>
+                <div class="board-show-menu-pointer">
+                    <i class="fas fa-ellipsis-v">
+                        <img src="dotted.jpg">
+                    </i>
+                    Show Menu
+                </div>
+            </div>
+            <div class="board">
+                <div class="task-list-wrapper">
+                    <div class="task-list">
+                        <div class="task-list-title-container">
+                            <h3 class="task-list-title">TO DO</h3>
+                            <span class="task-list-more pointer">...</span>
+                        </div>
+                        <div class="task-pointer">
+                            "Learn HTML"
+                            <i class="task-edit fas-fa-pencil-alt pointer"></i>
+                        </div>
+                        <div class="task-pointer">
+                            "Learn CSS"
+                            <i class="task-edit fas fa-pencil-alt pointer"></i>
+                        </div>
+                        <div class="task-pointer">
+                            "Learn JavaScript"
+                            <i class="task-edit fas-fa-pencil-alt pointer"></i>
+                        </div>
+                        <div class="add-card-message pointer">+Add Another Card</div>
+                    </div>
+                </div>
+                <div class="task-list-wrapper">
+                    <div class="task-list">
+                        <div class="task-list-title-container">
+                            <h3 class="task-list-title">Doing</h3>
+                            <span class="task-list-more pointer">...</span>
+                        </div>
+                        <div class="task-pointer">Prepare Resume</div>
+                        <div class="add-card-form">
+                            <form>
+                                <textarea rows="3" placeholder="Enter a title for this card..." class="full-width-input"></textarea>
+                                <div class="add-card-from-actions">
+                                    <button class="btn btn-inline btn-primary add-card-button pointer">Add Card</button>
+                                    <i class="fas fa-2x fa-times add-card-cancel pointer">
+                                        <img src="close.png">
+                                    </i>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="task-list-wrapper">
+                    <div class="task-list">
+                        <div class="task-list-title-container">
+                            <h3 class="task-list-title">Testing/Verifying</h3>
+                            <span class="task-list-more pointer">...</span>
+                        </div>
+                        <div class="task pointer">Twitter app Frontend</div>
+                        <div class="add-card-message pointer">+Add Another Card</div>
+                    </div>
+
+                </div>
+                <div class="task-list-wrapper">
+                    <div class="task-list">
+                        <div class="task-list-title-container">
+                            <h3 class="task-list-title">Deploying</h3>
+                            <span class="task-list-more pointer">...</span>
+                        </div>
+                        <div class="task pointer">Twitter app Backend</div>
+                        <div class="add-card-message pointer">+Add Another Card</div>
+                    </div>
+                </div>
+                <div class="task-list-wrapper">
+                    <div class="task-list">
+                        <div class="task-list-title-container">
+                            <h3 class="task-list-title">Done</h3>
+                            <span class="task-list-more pointer">...</span>
+                        </div>                        
+                        <div class="add-card-message pointer">+Add Another Card</div>
+                    </div>
+                </div>
+                <div class="task-list-wrapper">
+                    <div class="task-list">                                                
+                         <div class="add-list-message pointer">+Add Another Card</div>
+                    </div>
+                </div>
+                <div class="task-list-wrapper">
+                    <div class="task-list">
+                        <div class="add-card-form">
+                            <form>
+                                <textarea rows="3" placeholder="Enterlist title..." class="full-width-input"></textarea>
+                                <div class="add-list-form-actions">
+                                <button class="btn btn-inline btn-primary add-list-button pointer">Add List</button>
+                                <i class="fas fa-2x fa-times add-list-cancel pointer">
+                                    ::before
+                                </i>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
